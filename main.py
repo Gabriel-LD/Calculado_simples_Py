@@ -1,11 +1,11 @@
-operacao = input('Digite uma operação (+,-,*,/) a ser feita:')
 a = input('Digite um termo: ')
 b = input('Digite o segundo termo: ')
+operacao = input('Digite uma operação (+,-,*,/) a ser feita:')
 if operacao == '+':
   soma = int(a) + int(b)
   print(soma)
 
-if operacao == '-':
+if  operacao == '-':
   subtracao = int(a) - int(b)
   print(subtracao)
 
